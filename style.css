@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Web content wrapper */
+.content {
+    background-image: url("./images/background.svg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+/* Header property begins */
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 2.75rem 6.5rem 3.3125rem 6.5rem;
+}
+
+@media (max-width: 650px) {
+    header {
+        padding: 2.1875rem 1.1875rem 3.3125rem 1.1875rem;
+    }
+}
+
+.logo {
+    background-image: url("./images/Logo.svg");
+    width: 40.24px;
+    height: 40px;
+}
+
+.calender {
+    background-image: url("./images/calender.svg");
+    width: 40px;
+    height: 40px;
+}
+
+/* Header property ends */
