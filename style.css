@@ -4,6 +4,9 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
+    font-style: normal;
+    text-align: center;
     box-sizing: border-box;
 }
 
@@ -17,7 +20,7 @@
     background-position: center 0;
 }
 
-/* Header property begins */
+/* Header class begins */
 header {
     justify-content: space-between;
     align-items: center;
@@ -36,11 +39,9 @@ header {
     width: 2.5rem;
     height: 2.5rem;
 }
+/* Header class ends */
 
-/* Header property ends */
-
-/* Landing text begins */
-
+/* Landing class begins */
 .landing {
     background-image: url("./images/topstars.svg");
     width: 100%;
@@ -51,13 +52,10 @@ header {
 }
 
 .landing-header {
-    color: white;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 300;
     font-size: 4.375rem;
     line-height: 4rem;
-    text-align: center;
     letter-spacing: -0.015em;
     margin: 0 auto;
     padding-bottom: 1.4375rem;
@@ -69,12 +67,9 @@ header {
 
 .landing-text {
     font-family: 'Inter', sans-serif;
-    color: white;
-    font-style: normal;
     font-weight: 400;
     font-size: 1.8394875rem;
     line-height: 2.0625rem;
-    text-align: center;
     letter-spacing: -0.06em;
     margin: 0 auto;
 }
@@ -82,13 +77,13 @@ header {
 .landing-text-bold {
     font-weight: 700;
 }
+/* Landing class ends */
 
 .mobile-break {
     display: none;
 }
 
 /* moblie class properties */
-
 @media (max-width: 650px) {
     header {
         padding: 2.1875rem 1.1875rem 3.3125rem 1.1875rem;
