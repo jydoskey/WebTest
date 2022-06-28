@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Header class begins */
@@ -89,10 +89,6 @@ header {
     padding-bottom: 1.4375rem;
 }
 
-.landing-header-bold {
-    font-weight: 700;
-}
-
 .landing-text {
     font-weight: 400;
     font-size: 1.8394875rem;
@@ -100,10 +96,6 @@ header {
     letter-spacing: -0.06em;
     max-width: 32.25rem;
     margin: 0 auto;
-}
-
-.landing-text-bold {
-    font-weight: 700;
 }
 
 /* Landing class ends */
@@ -190,6 +182,57 @@ li span {
     Height: 0.984375rem;
 }
 
+.coin-pot {
+    width: 100%;
+    max-width: 31rem;
+    margin: 0 auto;
+}
+
+.coins {
+    width: 100%;
+    max-width: 38rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes leftmotion {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes rightmotion {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+.leftcoin {
+    left: 0;
+    bottom: 10%;
+    animation: leftmotion 3s linear infinite;
+}
+
+.rightcoin {
+    right: 0;
+    padding-top: 6rem;
+    bottom: 10%;
+    animation: rightmotion 3s linear infinite;
+}
+
 .mobile-break {
     display: none;
 }
@@ -199,7 +242,7 @@ li span {
 
     header,
     main {
-        padding: 2.1875rem 1.1875rem 3.3125rem 1.1875rem;
+        padding: 2.1875rem 1.1875rem 0 1.1875rem;
     }
 
     .text-break {
@@ -220,5 +263,17 @@ li span {
         font-weight: 400;
         font-size: 1rem;
         line-height: 1.3125rem;
+    }
+
+    .coins {
+        margin: 0;
+    }
+
+    .leftcoin {
+        margin-left: -5rem;
+    }
+
+    .rightcoin {
+        margin-right: -5rem;
     }
 }
