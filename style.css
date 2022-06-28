@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-/* font-family: 'Inter', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 
 * {
     margin: 0;
@@ -28,22 +25,92 @@ header {
     padding: 2.75rem 6.5rem 3.3125rem 6.5rem;
 }
 
-@media (max-width: 650px) {
-    header {
-        padding: 2.1875rem 1.1875rem 3.3125rem 1.1875rem;
-    }
-}
-
 .logo {
     background-image: url("./images/Logo.svg");
-    width: 40.24px;
-    height: 40px;
+    width: 2.515rem;
+    height: 2.5rem;
 }
 
 .calender {
     background-image: url("./images/calender.svg");
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 /* Header property ends */
+
+/* Landing text begins */
+
+.landing {
+    background-image: url("./images/topstars.svg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.landing-header {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4.375rem;
+    line-height: 4rem;
+    text-align: center;
+    letter-spacing: -0.015em;
+    margin: 0 auto;
+    padding-bottom: 1.4375rem;
+}
+
+.landing-header-bold {
+    font-weight: 700;
+}
+
+.landing-text {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8394875rem;
+    line-height: 2.0625rem;
+    text-align: center;
+    letter-spacing: -0.06em;
+    margin: 0 auto;
+}
+
+.landing-text-bold {
+    font-weight: 700;
+}
+
+.mobile-break {
+    display: none;
+}
+
+/* moblie class properties */
+
+@media (max-width: 650px) {
+    header {
+        padding: 2.1875rem 1.1875rem 3.3125rem 1.1875rem;
+    }
+
+    .text-break {
+        display: none !important;
+    }
+
+    .mobile-break {
+        display: block !important;
+    }
+
+    .landing-header {
+        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 2.5625rem;
+    }
+
+    .landing-text {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.3125rem;
+    }
+}
