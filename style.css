@@ -11,6 +11,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+main {
+    overflow: hidden;
+}
+
 /* Web content wrapper */
 .content {
     background-image: url("./images/background.svg");
@@ -191,7 +195,7 @@ li span {
 .coins {
     width: 100%;
     max-width: 38rem;
-    margin: 0 auto;
+    margin: -2.7rem auto;
     display: flex;
     justify-content: space-between;
 }
@@ -230,7 +234,7 @@ li span {
     right: 0;
     padding-top: 6rem;
     bottom: 10%;
-    animation: rightmotion 3s linear infinite;
+    animation: rightmotion 3.2s linear infinite;
 }
 
 .mobile-break {
@@ -266,7 +270,7 @@ li span {
     }
 
     .coins {
-        margin: 0;
+        margin: -2rem 0;
     }
 
     .leftcoin {
