@@ -34,11 +34,36 @@ header {
     height: 2.5rem;
 }
 
+.timer {
+    display: flex;
+}
+
 .calender {
     background-image: url("./images/calender.svg");
     width: 2.5rem;
     height: 2.5rem;
+    margin-right: 0.875rem;
 }
+
+.start-day {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    padding-bottom: 0.25rem;
+    text-align: left;
+}
+
+.total-day {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 0.9375rem;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 /* Header class ends */
 
 /* Landing class begins */
@@ -56,6 +81,7 @@ header {
     font-weight: 300;
     font-size: 4.375rem;
     line-height: 4rem;
+    max-width: 54.5rem;
     letter-spacing: -0.015em;
     margin: 0 auto;
     padding-bottom: 1.4375rem;
@@ -71,12 +97,14 @@ header {
     font-size: 1.8394875rem;
     line-height: 2.0625rem;
     letter-spacing: -0.06em;
+    max-width: 32.25rem;
     margin: 0 auto;
 }
 
 .landing-text-bold {
     font-weight: 700;
 }
+
 /* Landing class ends */
 
 .mobile-break {
