@@ -8,6 +8,7 @@
     font-style: normal;
     text-align: center;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Web content wrapper */
@@ -46,7 +47,6 @@ header {
 }
 
 .start-day {
-    font-family: 'Inter';
     font-weight: 700;
     font-size: 1.125rem;
     line-height: 1.25rem;
@@ -55,7 +55,6 @@ header {
 }
 
 .total-day {
-    font-family: 'Inter';
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 0.9375rem;
@@ -74,6 +73,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0;
+    padding-bottom: 1.5rem;
 }
 
 .landing-header {
@@ -92,7 +92,6 @@ header {
 }
 
 .landing-text {
-    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.8394875rem;
     line-height: 2.0625rem;
@@ -107,13 +106,75 @@ header {
 
 /* Landing class ends */
 
+/* How to Play starts */
+.How-to-play {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 1.6875rem;
+    max-width: 26.5625rem;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.39) -213.5%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset 0px -1px 11px rgba(255, 255, 255, 0.17), inset 0px 2px 0px rgba(255, 255, 255, 0.24);
+    border-radius: 0.5rem;
+}
+
+.htp-text {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+
+
+ol,
+li,
+.How-to-play p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    letter-spacing: -0.02em;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.How-to-play p {
+    padding-top: 0.5rem;
+    padding-bottom: 1.625rem;
+}
+
+li span {
+    font-weight: 800;
+}
+
+.jackpot {
+    display: flex;
+    justify-content: center;
+    padding: 0.625rem;
+    max-width: 23.1875rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.625rem;
+}
+
+.jackpot-text {
+    text-align: left;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.1875rem;
+    letter-spacing: -0.02em;
+}
+
 .mobile-break {
     display: none;
 }
 
 /* moblie class properties */
 @media (max-width: 650px) {
-    header {
+
+    header,
+    main {
         padding: 2.1875rem 1.1875rem 3.3125rem 1.1875rem;
     }
 
