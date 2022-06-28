@@ -14,11 +14,13 @@
 /* Web content wrapper */
 .content {
     background-image: url("./images/background.svg");
-    width: 100%;
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 /* Header class begins */
@@ -117,6 +119,7 @@ header {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.39) -213.5%, rgba(255, 255, 255, 0) 100%);
     box-shadow: inset 0px -1px 11px rgba(255, 255, 255, 0.17), inset 0px 2px 0px rgba(255, 255, 255, 0.24);
     border-radius: 0.5rem;
+    margin-bottom: 2.75rem;
 }
 
 .htp-text {
@@ -126,8 +129,6 @@ header {
     margin: 0 auto;
     padding-bottom: 1rem;
 }
-
-
 
 ol,
 li,
@@ -164,6 +165,29 @@ li span {
     font-size: 0.75rem;
     line-height: 1.1875rem;
     letter-spacing: -0.02em;
+}
+
+/* How to play ends */
+
+.btn-warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4375rem 1rem;
+    width: 14.0625rem;
+    height: 3.5rem;
+    background: #ECAB03;
+    border-radius: 0.25rem;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    justify-content: space-around;
+}
+
+.right-arrow {
+    Width: 0.5625rem;
+    Height: 0.984375rem;
 }
 
 .mobile-break {
