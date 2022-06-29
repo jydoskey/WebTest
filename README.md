@@ -10,7 +10,7 @@ Plain HTMl and CSS is being made use of inorder to optimise for the landing page
 # Preview
 
 Landing page Webview 
-![WebPage Preview]()
+![WebPage Preview](https://github.com/jydoskey/WebTest/blob/main/images/preview/webview.png)
 
 Landing page Mobileview 
 ![MobilePage Preview]()
