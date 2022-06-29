@@ -54,7 +54,7 @@
 
 @keyframes moveStar {
     from {
-        bottom: -5rem;
+        bottom: -40px;
     }
 
     to {
@@ -65,7 +65,11 @@
 
 @keyframes randomise {
     0% {
-        margin-left: 0;
+        margin-right: 0;
+    }
+
+    50% {
+        margin-right: 12px;
     }
 
     100% {
