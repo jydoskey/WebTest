@@ -10,9 +10,9 @@ Plain HTMl and CSS is being made use of inorder to optimise for the landing page
 # Preview
 
 Landing page Webview 
-![Webapp Preview]()
+![WebPage Preview]()
 
 Landing page Mobileview 
-![Mobileapp Preview]()
+![MobilePage Preview]()
 
 
