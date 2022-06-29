@@ -11,10 +11,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-main {
-    overflow: hidden;
-}
-
 /* Web content wrapper */
 .content {
     background-image: url("./images/background.svg");
@@ -72,6 +68,10 @@ header {
 /* Header class ends */
 
 /* Landing class begins */
+main {
+    overflow: hidden;
+}
+
 .landing {
     background-image: url("./images/topstars.svg");
     width: 100%;
@@ -83,9 +83,8 @@ header {
 }
 
 .landing-header {
-    font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 4.375rem;
+    font: 4.375rem 'Poppins', sans-serif;
     line-height: 4rem;
     max-width: 54.5rem;
     letter-spacing: -0.015em;
@@ -161,6 +160,7 @@ li span {
     font-size: 0.75rem;
     line-height: 1.1875rem;
     letter-spacing: -0.02em;
+    padding-left: 0.25rem;
 }
 
 /* How to play ends */
@@ -186,10 +186,19 @@ li span {
     Height: 0.984375rem;
 }
 
+.landing-base {
+    /* max-height: 20rem; */
+    /* overflow: hidden; */
+}
+
 .coin-pot {
     width: 100%;
+    left: 0;
+    right: 0;
     max-width: 31rem;
     margin: 0 auto;
+    position: absolute;
+    z-index: 2;
 }
 
 .coins {
@@ -198,6 +207,25 @@ li span {
     margin: -2.7rem auto;
     display: flex;
     justify-content: space-between;
+}
+
+@keyframes spinoff {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.light-ray {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -40rem;
+    position: relative;
+    z-index: 0;
+    animation: spinoff 20s infinite linear;
 }
 
 @keyframes leftmotion {
