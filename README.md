@@ -15,6 +15,6 @@ Landing page Webview
 
 Landing page Mobileview 
 
-![MobilePage Preview](https://github.com/jydoskey/WebTest/blob/main/images/preview/mobileview.png)
+![MobilePage Preview]<p align="center">(https://github.com/jydoskey/WebTest/blob/main/images/preview/mobileview.png)</p>
 
 
