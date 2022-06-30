@@ -16,7 +16,7 @@ Landing page Webview
 Landing page Mobileview 
 
 ![MobilePage Preview]<p align="center"><p align="center">
-  <img width="200" height="600" src="https://github.com/jydoskey/WebTest/blob/main/images/preview/mobileview.png">
+  <img width="331" height="720" src="https://github.com/jydoskey/WebTest/blob/main/images/preview/mobileview.png">
 </p>
 
 
