@@ -4,7 +4,7 @@ Demo website for a promo campaign
 ## State
 
 `
-Plain HTMl and CSS is being made use of inorder to optimise for the landing page performance as it's just a single webview 
+Plain HTMl and CSS is being made use of inorder to optimise for the website performance as it's just a single webview 
 `
 
 # Preview
