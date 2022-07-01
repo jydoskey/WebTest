@@ -53,13 +53,19 @@
 }
 
 @keyframes moveStar {
-    from {
-        bottom: -40px;
+    0% {
+        bottom: 0%;
     }
 
-    to {
-        top: 40px;
-        opacity: 0;
+    50% {
+        right: 45%;
+        bottom: 25%;
+    }
+
+    100% {
+        right: 40%;
+        bottom: 40%;
+        display: none;
     }
 }
 
@@ -73,10 +79,40 @@
     }
 
     100% {
-        margin-right: 0;
+        margin-right: 20px;
     }
 }
 
 .sparkle {
-    animation: moveStar 5s linear infinite, randomise 10s ease-in-out infinite alternate;
+    animation: moveStar 5s linear infinite, randomise 10s ease-out infinite alternate;
+}
+
+.star1 {
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+}
+
+.star2 {
+    position: absolute;
+    right: 40%;
+    bottom: 5%;
+}
+
+.star3 {
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+}
+
+.star4 {
+    position: absolute;
+    right: 20%;
+    bottom: 5%;
+}
+
+.star5 {
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
 }
