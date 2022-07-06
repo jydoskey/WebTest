@@ -15,6 +15,7 @@
 /* Web content wrapper */
 .main-content {
     background-image: url("./images/background.svg");
+    background-color: #161848;
     z-index: 1;
     overflow: clip;
 }
@@ -75,6 +76,12 @@ header {
 
 /* Header class ends */
 
+.top-star {
+    align-items: center;
+    padding: 0 6.5rem 3.3125rem 6.5rem;
+    position: relative;
+}
+
 /* Landing class begins */
 .main-text {
     background-repeat: no-repeat;
@@ -85,7 +92,10 @@ header {
     flex-direction: column;
     gap: 20px;
     z-index: 7;
-    background-image: url("./images/stars.png");
+    position: absolute;
+    align-self: center;
+    margin: 0 auto;
+    padding-top: 8rem;
 }
 
 .landing {
@@ -259,6 +269,10 @@ li span {
     header,
     main {
         padding: 2.1875rem 1.1875rem 0 1.1875rem;
+    }
+
+    .top-star {
+        display: none;
     }
 
     .text-break {
