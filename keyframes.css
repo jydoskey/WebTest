@@ -42,7 +42,7 @@
     }
 }
 
-@keyframes spinoff {
+@keyframes spin {
     0% {
         transform: rotate(360deg);
     }
@@ -58,13 +58,13 @@
     }
 
     50% {
-        right: 45%;
-        bottom: 25%;
+        right: 30%;
+        bottom: 15%;
     }
 
     100% {
-        right: 40%;
-        bottom: 40%;
+        right: 30%;
+        bottom: 30%;
         display: none;
     }
 }
@@ -84,7 +84,7 @@
 }
 
 .sparkle {
-    animation: moveStar 5s linear infinite, randomise 10s ease-out infinite alternate;
+    animation: moveStar 10s linear infinite, randomise 10s ease-out infinite alternate;
 }
 
 .star1 {
@@ -95,24 +95,24 @@
 
 .star2 {
     position: absolute;
-    right: 40%;
+    right: 32%;
     bottom: 5%;
 }
 
 .star3 {
     position: absolute;
-    left: 20%;
+    left: 26%;
     bottom: 5%;
 }
 
 .star4 {
     position: absolute;
-    right: 20%;
+    right: 29%;
     bottom: 5%;
 }
 
 .star5 {
     position: absolute;
-    left: 30%;
+    left: 41%;
     bottom: 5%;
 }
