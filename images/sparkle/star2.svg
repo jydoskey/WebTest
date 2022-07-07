@@ -1,14 +1,10 @@
-<svg width="85" height="46" viewBox="0 0 85 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M40.5556 70.5433C24.3922 69.1339 12.4248 54.9672 13.8258 38.901C15.2267 22.8348 29.4653 10.9532 45.6288 12.3626C61.7922 13.7719 73.7596 27.9387 72.3586 44.0049C70.9577 60.0711 56.719 71.9527 40.5556 70.5433Z" fill="url(#paint0_radial_2_5144)"/>
-<path opacity="0.03" d="M41.9508 54.5453C34.6765 53.911 29.2906 47.5352 29.9211 40.3046C30.5516 33.074 36.9597 27.7267 44.234 28.361C51.5083 28.9953 56.8943 35.371 56.2638 42.6016C55.6333 49.8322 49.2252 55.1796 41.9508 54.5453Z" fill="#FFE500"/>
-<path opacity="0.03" d="M41.1151 64.1269C28.5169 63.0284 19.1893 51.9864 20.2812 39.464C21.3731 26.9416 32.4711 17.6807 45.0693 18.7792C57.6675 19.8777 66.9952 30.9197 65.9033 43.4421C64.8113 55.9645 53.7133 65.2254 41.1151 64.1269Z" fill="#FFE500"/>
-<rect width="78.4563" height="77.9843" transform="matrix(-0.99622 -0.086867 -0.086867 0.99622 84.9504 6.97748)" fill="url(#pattern0)"/>
-<path d="M42.8765 43.9275C41.5016 43.8076 40.4836 42.6025 40.6028 41.2359C40.722 39.8692 41.9331 38.8585 43.308 38.9784C44.683 39.0983 45.701 40.3034 45.5818 41.67C45.4626 43.0367 44.2514 44.0474 42.8765 43.9275Z" fill="#FFFFF7"/>
+<svg width="55" height="54" viewBox="0 0 55 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.2555 51.57C11.5861 50.3781 1.46534 38.3973 2.65009 24.8102C3.83484 11.223 15.8765 1.17476 29.5458 2.36668C43.2152 3.5586 53.336 15.5394 52.1512 29.1265C50.9665 42.7136 38.9248 52.7619 25.2555 51.57Z" fill="url(#paint0_radial_1801_779)"/>
+<path opacity="0.03" d="M26.4348 38.0464C20.2796 37.5097 15.7223 32.1148 16.2558 25.9966C16.7893 19.8784 22.2115 15.3538 28.3667 15.8905C34.5219 16.4272 39.0792 21.822 38.5458 27.9402C38.0123 34.0584 32.59 38.5831 26.4348 38.0464Z" fill="#FFE500"/>
+<path opacity="0.03" d="M25.727 46.1607C15.0633 45.2308 7.16791 35.8844 8.09215 25.2849C9.0164 14.6853 18.4103 6.84647 29.074 7.77631C39.7377 8.70615 47.6331 18.0526 46.7088 28.6521C45.7846 39.2516 36.3907 47.0905 25.727 46.1607Z" fill="#FFE500"/>
+<path d="M27.2177 29.0689C26.0506 28.9671 25.1865 27.9442 25.2877 26.7841C25.3888 25.6241 26.417 24.7662 27.584 24.8679C28.7511 24.9697 29.6153 25.9926 29.5141 27.1527C29.413 28.3127 28.3848 29.1707 27.2177 29.0689Z" fill="#FFFFF7"/>
 <defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_2_5144" transform="scale(0.037037)"/>
-</pattern>
-<radialGradient id="paint0_radial_2_5144" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-10448.5 6853.15) rotate(-175.017) scale(594.013 590.44)">
+<radialGradient id="paint0_radial_1801_779" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-3761.35 5009.82) rotate(-175.017) scale(424.84 422.285)">
 <stop stop-color="#FFE500"/>
 <stop offset="0.09" stop-color="#FFE70F" stop-opacity="0.78"/>
 <stop offset="0.2" stop-color="#FFE81E" stop-opacity="0.58"/>
@@ -19,6 +15,5 @@
 <stop offset="0.71" stop-color="#FFEC46" stop-opacity="0.02"/>
 <stop offset="0.81" stop-color="#FFEC47" stop-opacity="0"/>
 </radialGradient>
-<image id="image0_2_5144" width="27" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAAsSAAALEgHS3X78AAABDElEQVRIS72W0Q3DIAxETdQBum4n6LqdIPSjpTkfZ3DSKE9CDgrwZAiQUmu1q1hmDc7kUtlt1uDH61HCd/dnai3KdM16CdZ954k0lnlJoYhUiqFUyzZRFBGWfaIQjtYMBViYal5UDLME+sx8Vq0s5mU4YJOt8CyzizJTIhaaedHyjfjO4feZ/vJYzCWeZhpvtKmxIQ+q6qqfY3aC8DpFhdtKZrJTOSpLHU/MaJ9VUVbbpku9xz3X4TPrdz2LWlyprkXJfYaNMCMFy8LsRmfj6MtD9FTuPBsrxKwM+3VkrhiO7Zmneou7rpiGvtMU2yCDC3R+U5uNfwkaiV+DnAxBcUKA7Jf9wdHj6hCXyt4s4o8dLaXTcgAAAABJRU5ErkJggg=="/>
 </defs>
 </svg>
