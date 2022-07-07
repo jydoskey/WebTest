@@ -23,7 +23,7 @@ In writing my html, I applied semantic elements while working with less lines of
 
 Landing page Webview 
 
-![WebPage Preview](https://github.com/jydoskey/WebTest/blob/main/images/preview/webview.png)
+![WebPage Preview](https://github.com/jydoskey/WebTest/blob/main/images/preview/web.png)
 
 Landing page Mobileview 
 
